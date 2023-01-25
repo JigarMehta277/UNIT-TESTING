@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url("./images/valo.jpg");
+}
+
+#header {
+  display: flex;
+}
+
+#h1 {
+  margin-left: 5em;
+  font-family: 'Pacifico', sans-serif;
+  color: brown;
+}
+
+.menu-items li {
+  padding: 10px;
+
+}
+
+h2 {
+  text-align: center;
+  color: royalblue;
+}
+
+h3 {
+  text-align: center;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0px;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+.agents {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.figure {
+  color: red;
+  margin-left: 70px;
+}
+
+.img {
+  border-radius: 50%;
+}

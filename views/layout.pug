@@ -1,0 +1,22 @@
+block variables 
+doctype html
+html
+  head
+    meta(charset="utf-8")
+    title #{title} | valorant Merchandise
+    link(rel="stylesheet", type="text/css", href="/style.css")
+  body
+    header#header
+      .menu-items
+        ul
+          li: a(href='#') HOME
+          li: a(href='#') GAME INFO 
+          li: a(href='#') PRODUCTS 
+          li: a(href='#') GAME NEWS 
+          li: a(href='#') ABOUT
+      .heading-content
+         h1#h1 valorant Merchandise
+    main#main 
+      block main-content
+    footer#footer
+      p &copy; Copyright Jigar Mehta, 2023.

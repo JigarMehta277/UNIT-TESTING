@@ -1,0 +1,14 @@
+extends layout 
+
+block main-content 
+  h1.page-title Administer menu links 
+  table 
+    thead 
+      tr
+        th Link 
+        th Operations 
+    tbody 
+      each link in menu 
+        tr
+          td  #{link.name}
+          td 
